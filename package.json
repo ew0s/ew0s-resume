@@ -1,0 +1,23 @@
+{
+  "name": "ew0s-resume",
+  "version": "1.0.0",
+  "description": "Савковский Егор Вадимович М33071",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ew0s/ew0s-resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ew0s/ew0s-resume/issues"
+  },
+  "homepage": "https://github.com/ew0s/ew0s-resume#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
