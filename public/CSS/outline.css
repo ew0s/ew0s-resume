@@ -42,13 +42,13 @@ body {
 
 
 .header_avatar {
-    width: 400px;
+    width: 300px;
     height: auto;
     min-height: 270px;
     min-width: 270px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 25px;
-    border-radius: 50%;
+    border-radius: 1%;
     border: solid 0 white;
 }
 
@@ -73,12 +73,6 @@ body {
 
 main {
     margin-top: 100px;
-}
-
-#aboutMe {
-    width: 400px;
-    height: 350px;
-    margin-right: 50px;
 }
 
 #contacts {
@@ -117,27 +111,6 @@ main {
 }
 
 #codeExamples {
-}
-
-#education {
-    justify-content: center;
-    height: 400px;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: black;
-}
-
-#education h2 {
-    font-size: 60px;
-    font-family: 'Libre Barcode 39 Text', cursive;
-
-}
-
-#rewards {
-    width: 400px;
-    height: 350px;
 }
 
 .main_container {
@@ -322,9 +295,16 @@ ol.gradient-list > li {
 
 .center {
     text-align: center;
+    font-size: 50px;
 }
 
-#education {
+#university_education {
+}
+
+#outside_education {
+}
+
+.education {
     width: 95%;
     max-width: 1220px;
     margin: 0 auto;
@@ -368,6 +348,26 @@ ol.gradient-list > li {
     margin-top: 50px;
 }
 
+.episode__image {
+    width: 450px;
+    height: auto;
+}
+
+.episode__image__fls {
+    width: 300px;
+    height: 300px;
+    margin-right: 75px;
+    margin-left: 80px;
+}
+
+.episode__image__swiftbook {
+    width: 200px;
+    height: 200px;
+    margin-right: 125px;
+    margin-left: 125px;
+    border-radius: 25px;
+}
+
 @media (max-width: 600px) {
     .episode__content {
         grid-template-columns: 1fr;
@@ -378,4 +378,24 @@ ol.gradient-list > li {
     .episode__content .story {
         font-size: 15px;
     }
+}
+
+#aboutMe {
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    margin-left: 250px;
+}
+
+#rewards {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 100px;
+    align-self: flex-start;
+}
+
+#rewards li {
+    padding: 5px;
 }
