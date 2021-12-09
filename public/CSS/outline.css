@@ -368,6 +368,13 @@ ol.gradient-list > li {
     border-radius: 25px;
 }
 
+.episode__image__tinkoff {
+    width: 250px;
+    height: 250px;
+    margin-right: 105px;
+    margin-left: 100px;
+}
+
 @media (max-width: 600px) {
     .episode__content {
         grid-template-columns: 1fr;
